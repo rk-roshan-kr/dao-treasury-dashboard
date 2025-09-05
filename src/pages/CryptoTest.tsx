@@ -8,7 +8,11 @@ import {
   Box, 
   Chip,
   Grid,
-  Alert
+  Alert,
+  Select,
+  MenuItem,
+  FormControl,
+  InputLabel
 } from '@mui/material'
 import { Add as AddIcon, Remove as RemoveIcon } from '@mui/icons-material'
 import { useCryptoStore, useCryptoBalance } from '../state/useCryptoStore'
@@ -73,19 +77,20 @@ export default function CryptoTest() {
                 Update Balances
               </Typography>
               <Box sx={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
-                <TextField
-                  select
-                  label="Select Crypto"
-                  value={selectedCrypto}
-                  onChange={(e) => setSelectedCrypto(e.target.value as CryptoSymbol)}
-                  fullWidth
-                >
-                  {Object.keys(balances).map((symbol) => (
-                    <option key={symbol} value={symbol}>
-                      {symbol}
-                    </option>
-                  ))}
-                </TextField>
+                <FormControl fullWidth>
+                  <InputLabel>Select Crypto</InputLabel>
+                  <Select
+                    value={selectedCrypto}
+                    label="Select Crypto"
+                    onChange={(e) => setSelectedCrypto(e.target.value as CryptoSymbol)}
+                  >
+                    {Object.keys(balances).map((symbol) => (
+                      <MenuItem key={symbol} value={symbol}>
+                        {symbol}
+                      </MenuItem>
+                    ))}
+                  </Select>
+                </FormControl>
                 <TextField
                   label="Amount"
                   type="number"
