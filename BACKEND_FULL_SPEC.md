@@ -1,4 +1,4 @@
-# Backend Development Guide (Non-Technical Friendly)
+# Backend Development Guide (Technical Friendly)
 
 This document explains, in plain language, everything a backend developer needs to build a secure, production-ready backend for the DAO Treasury Dashboard. It lists what the frontend needs, exact API endpoints, data formats, security requirements, and how everything fits together.
 
