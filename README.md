@@ -24,7 +24,7 @@ A modern, responsive dashboard for managing DAO treasury investments and crypto 
 
 1. **Clone and install**
 ```bash
-git clone https://github.com/YOUR_USERNAME/dao-treasury-dashboard.git
+git clone https://github.com/rk-roshan-kr/dao-treasury-dashboard.git
 cd dao-treasury-dashboard
 npm install
 ```
