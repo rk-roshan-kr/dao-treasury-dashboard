@@ -1,6 +1,7 @@
 import { Card, CardContent, Typography, FormControlLabel, Switch, Box, TextField, Select, MenuItem, FormControl, InputLabel, Chip, Divider } from '@mui/material'
 import { useState, useEffect } from 'react'
-import { cryptoMeta, type CryptoSymbol } from '../state/cryptoMeta'
+import { cryptoMeta } from '../state/cryptoMeta'
+import type { CryptoSymbol } from '../state/cryptoStore'
 
 // Types for wallet-specific sweep settings
 interface WalletSweepSettings {

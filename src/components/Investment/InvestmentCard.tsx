@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { formatUSD } from '../../utils/format'
-import { InvestmentOption } from '../../pages/Investment'
+import { InvestmentOption } from './InvestmentOptions'
 import RiskBadge from './RiskBadge'
 
 interface InvestmentCardProps {

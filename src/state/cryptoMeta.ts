@@ -1,4 +1,5 @@
 import type { CryptoSymbol } from './cryptoStore'
+export { CryptoSymbol }
 import btcIcon from '../assets/crypto/btc.svg'
 import ethIcon from '../assets/crypto/eth.svg'
 import usdtIcon from '../assets/crypto/usdt.svg'
