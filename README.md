@@ -84,4 +84,4 @@ See `BACKEND_INTEGRATION.md` for detailed API requirements and integration guide
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+ License - see [LICENSE](LICENSE) file for details.
