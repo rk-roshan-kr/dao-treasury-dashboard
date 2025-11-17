@@ -120,7 +120,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       >
         <Toolbar>
           <Typography variant="h6" noWrap component="div" className="text-white">
-            DAO Treasury Dashboard
+            Cryptic
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
         </Toolbar>

@@ -84,3 +84,6 @@ temp/
 
 # Cursor specific (keep workspace settings)
 .cursor/
+
+# Local Netlify folder
+.netlify

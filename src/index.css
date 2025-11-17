@@ -3,11 +3,22 @@
 @tailwind utilities;
 
 :root { color-scheme: dark; }
+
+
 body {
   @apply bg-black text-white;
   transition: background-color .3s ease, color .3s ease;
   background-image: none !important;
   overflow-x: hidden;
+}
+html, body, #root {
+  height: 100%;
+}
+
+#root > div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 :root {
