@@ -10,7 +10,7 @@
 
 ---
 
-![Cryptic Dashboard Preview](./path-to-your-screenshot.jpg)
+![Cryptic Dashboard Preview](https://cryptic-webapp.netlify.app/preview.jpg)
 > *The Cryptic Dashboard: Real-time analytics and portfolio management.*
 
 ---
