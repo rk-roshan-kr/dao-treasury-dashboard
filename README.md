@@ -1,4 +1,4 @@
-# DAO Treasury Dashboard
+# Cryptic
 
 A modern, responsive dashboard for managing DAO treasury investments and crypto portfolios.
 
