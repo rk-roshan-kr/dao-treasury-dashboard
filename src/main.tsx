@@ -1,13 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
+import { BrowserRouter } from 'react-router-dom'
 import './index.css'
-import { BrowserRouter } from 'react-router-dom' // <--- USE THIS
+import App from './App'
+
+import ErrorBoundary from './components/common/ErrorBoundary'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter> {/* <--- NOT HashRouter */}
+    {}
+    <BrowserRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 )
