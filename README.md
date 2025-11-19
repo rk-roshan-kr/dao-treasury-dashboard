@@ -1,82 +1,93 @@
-# Cryptic
+# Cryptic: The Ultimate DAO Treasury Dashboard
 
-A modern, responsive dashboard for managing DAO treasury investments and crypto portfolios.
 
-## 🚀 Features
 
-- **Real-time Crypto Tracking**: Live price updates for major cryptocurrencies
-- **Portfolio Management**: Track and manage crypto investments  
-- **Investment Options**: Explore different investment strategies
-- **Wallet Integration**: Connect and manage multiple wallets
-- **Responsive Design**: Works seamlessly on desktop and mobile
-- **Modern UI**: Built with Material-UI and Tailwind CSS
+
+**Cryptic** is a modern, high-performance web application built for speed and security. It serves as a comprehensive dashboard for managing DAO treasury investments and crypto portfolios. Hosted on Netlify for global availability.
+
+### 🚀 [Launch Live App](https://cryptic-webapp.netlify.app)
+**View the live deployment here:** [https://cryptic-webapp.netlify.app](https://cryptic-webapp.netlify.app)
+
+---
+
+![Cryptic Dashboard Preview](./path-to-your-screenshot.jpg)
+> *The Cryptic Dashboard: Real-time analytics and portfolio management.*
+
+---
+
+## ✨ Key Features
+
+* **Real-time Crypto Tracking:** Live price updates for major cryptocurrencies.
+* **Portfolio Management:** specific tools to track and manage crypto investments.
+* **Secure Architecture:** Built on standard encryption protocols for data integrity.
+* **Wallet Integration:** Connect and manage multiple Web3 wallets seamlessly.
+* **Responsive Design:** Optimized for mobile, tablet, and desktop views.
+* **Modern UI:** Crafted with Material-UI and Tailwind CSS for a premium aesthetic.
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React 18 + TypeScript
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS + Material-UI
-- **Charts**: Recharts
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
+* **Frontend:** React 18 + TypeScript
+* **Build Tool:** Vite (Super fast HMR)
+* **Styling:** Tailwind CSS + Material-UI
+* **Charts:** Recharts
+* **State Management:** Zustand
+* **Icons:** Lucide React
 
 ## 📦 Quick Start
 
-1. **Clone and install**
-```bash
-git clone https://github.com/rk-roshan-kr/dao-treasury-dashboard.git
+**1. Clone and install**
+
+git clone [https://github.com/rk-roshan-kr/dao-treasury-dashboard.git](https://github.com/rk-roshan-kr/dao-treasury-dashboard.git)
 cd dao-treasury-dashboard
 npm install
-```
 
-2. **Start development**
-```bash
+
+**2. Start development**
+
+
 npm run dev
-```
 
-3. **Open in browser**
+
+**3. Open in browser**
 Navigate to `http://localhost:5173`
 
 ## 🔧 Development Workflow
 
-### Using Cursor IDE
+**Using Cursor IDE**
 This project is optimized for Cursor IDE development:
 
-1. Open the project in Cursor
-2. Install recommended extensions (Cursor will prompt you)
-3. Use Cursor's AI features for code completion and generation
-4. Git integration works seamlessly within Cursor
+  * Open the project in Cursor.
+  * Install recommended extensions.
+  * Use Cursor's AI features for rapid code generation.
 
-### Available Scripts
-- `npm run dev` - Start development server
-- `npm run build` - Build for production  
-- `npm run preview` - Preview production build
+**Available Scripts**
+
+  * `npm run dev`: Start development server
+  * `npm run build`: Build for production
+  * `npm run preview`: Preview production build
 
 ## 📁 Project Structure
 
 ```
 src/
 ├── components/          # Reusable UI components
-│   ├── common/         # Common components
-│   ├── Dashboard/      # Dashboard components
-│   ├── Investment/     # Investment-related components
-│   ├── Layout/         # Layout components
-│   └── wallet/         # Wallet components
-├── pages/              # Page components
-├── state/              # State management (Zustand)
-├── utils/              # Utility functions
-├── assets/             # Static assets
+│   ├── common/         # Common components (Buttons, Inputs)
+│   ├── Dashboard/      # Core Dashboard logic
+│   ├── Investment/     # Investment strategy views
+│   └── wallet/         # Wallet connection logic
+├── pages/              # Route pages
+├── state/              # Zustand stores
+├── utils/              # Helper functions
 └── hooks/              # Custom React hooks
 ```
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes in Cursor
-4. Commit your changes (`git commit -m 'Add amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
+1.  Fork the repository
+2.  Create a feature branch (`git checkout -b feature/amazing-feature`)
+3.  Commit your changes (`git commit -m 'Add amazing feature'`)
+4.  Push to the branch (`git push origin feature/amazing-feature`)
+5.  Open a Pull Request
 
 ## 📝 Backend Integration
 
@@ -84,4 +95,5 @@ See `BACKEND_INTEGRATION.md` for detailed API requirements and integration guide
 
 ## 📄 License
 
- License - see [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+
